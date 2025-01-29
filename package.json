@@ -1,0 +1,26 @@
+{
+  "name": "speedrun-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --public-url ./",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.87.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./dist",
+      "publicUrl": "./"
+    }
+  }
+}
